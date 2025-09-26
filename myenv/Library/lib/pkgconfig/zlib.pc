@@ -1,0 +1,13 @@
+prefix=D:/My PC/Krish naik/code/myenv/Library
+exec_prefix=D:/My PC/Krish naik/code/myenv/Library
+libdir=D:/My PC/Krish naik/code/myenv/Library/lib
+sharedlibdir=D:/My PC/Krish naik/code/myenv/Library/lib
+includedir=D:/My PC/Krish naik/code/myenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
